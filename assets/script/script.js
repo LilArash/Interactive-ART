@@ -19,10 +19,10 @@ function loaderFunction() {
         loadingIcon.style.color = "#87BC25";
     }, 1000)
     window.addEventListener('DOMContentLoaded', () => {
-        //setTimeout(() => {
+        setTimeout(() => {
             loader.style.left = "100%";
             loader.firstElementChild.remove();
-        //}, 3000);
+        }, 3000);
     });
 }
 loaderFunction();
