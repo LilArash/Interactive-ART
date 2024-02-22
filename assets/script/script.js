@@ -17,7 +17,7 @@ function loaderFunction() {
     setTimeout(() => {
         loader.style.right = "0";
         loadingIcon.style.color = "#87BC25";
-    }, 500)
+    }, 1000)
     window.addEventListener('DOMContentLoaded', () => {
        //setTimeout(() => {
             loader.style.left = "100%";
