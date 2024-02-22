@@ -216,7 +216,21 @@ html {
 body {
     font-family: "TTNorms";
 }
-
+.loader {
+    transition: .3s ease-out;
+    background-color: #2f5bea;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    right: 100%;
+    z-index: 101;
+}
+.loader i {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    color: transparent;
+}
 .container {
     max-width: 80rem;
     margin-right: auto;
